@@ -1,15 +1,2 @@
 #!/bin/bash
-
-# Navigate to the current working directory
-cd "$(pwd)"
-
-# Use a loop to find and delete files ending with ~
-for file in *~
-do
-    if [ -f "$file" ]; then
-        rm "$file"
-        echo "Deleted: $file"
-    fi
-done
-
-echo "Deletion process completed."
+rm *~
