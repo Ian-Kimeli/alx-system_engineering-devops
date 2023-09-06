@@ -1,3 +1,2 @@
 #!/bin/bash
-./hello_user.sh
-
+echo "hello $USER"
